@@ -1,0 +1,164 @@
+<!-- <form class="row g-3">
+    <div class="col-md-6">
+      <label for="inputEmail4" class="form-label">Email</label>
+      <input type="email" class="form-control" id="inputEmail4">
+    </div>
+    <div class="col-md-6">
+      <label for="inputPassword4" class="form-label">Password</label>
+      <input type="password" class="form-control" id="inputPassword4">
+    </div>
+    <div class="col-12">
+      <label for="inputAddress" class="form-label">Address</label>
+      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+    </div>
+    <div class="col-12">
+      <label for="inputAddress2" class="form-label">Address 2</label>
+      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+    </div>
+    <div class="col-md-6">
+      <label for="inputCity" class="form-label">City</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="col-md-4">
+      <label for="inputState" class="form-label">State</label>
+      <select id="inputState" class="form-select">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select>
+    </div>
+    <div class="col-md-2">
+      <label for="inputZip" class="form-label">Zip</label>
+      <input type="text" class="form-control" id="inputZip">
+    </div>
+    <div class="col-12">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck">
+        <label class="form-check-label" for="gridCheck">
+          Check me out
+        </label>
+      </div>
+    </div>
+    <div class="col-12">
+      <button type="submit" class="btn btn-primary">Sign in</button>
+    </div>
+  </form> -->
+
+  <section class="hero  " >
+    <div class="head py-5">
+    <h1 class="title has-text-centered is-size 1 has-text-white has-text-weight-bold"> MILK-DAIRY MANAGEMENT SYSTEM USING DATA ANALYTICS</h1>
+    </div>
+    <div class="subhead">
+        <h4 class="title has-text-centered  has-text-white "> Milk-dairy Itagi, Dairy number:101</h4>
+    </div>
+    <nav class="navbar" role="navigation" aria-label="main navigation ">
+
+        <div class="navbar-brand">
+      
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-end ">
+            <a class="navbar-item">
+            <span><i class="fa fa-home"></i> Home</span>
+            </a>
+      
+            <a href='/mgr-dataentry' class="navbar-item">
+                <span><i class="fa fa-pencil"></i> Data-Entry</span>
+            </a>
+      
+            <a href="/mgr-farmerlist" class="navbar-item">
+            <span><i class="fa fa-user"></i> Farmers</span>
+              </a>
+
+              <a class="navbar-item">
+                <span><i class="fa fa-file"></i> Price-List</span>
+              </a>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">
+                More
+              </a>
+      
+              <div class="navbar-dropdown">
+                <a class="navbar-item">
+                    <span><i class="fa fa-cog"></i>   Settings</span>
+                </a>
+                <a class="navbar-item">
+                    <span><i class="fa fa-info-circle"></i>  About</span>
+                </a>
+                <a class="navbar-item">
+                    <span><i class="fa fa-phone"></i> Contact</span>
+                </a>
+                <hr class="navbar-divider">
+                <a class="navbar-item">
+                    <span><i class="fa fa-comments"></i> Feed Back</span>
+                </a>
+              </div>
+             </div>
+          </div>
+      
+          <div class="navbar mx-6 px-6">
+            <div class="navbar-item">
+              <div class="buttons">
+                <a class="button is-primary">
+                  <strong>Logout  <i class="fa fa-sign-out"></i></strong>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </nav>
+
+
+    <div class="card mx-6">
+        <div class="card-content py-4 px-6">
+            <div class="content">
+            <h1 class="title has-text-centered">Enter the Data</h1>
+        <form class="row g-3 py-3 px-6">
+            <div class="col-md-6">
+                <label for="inputcardno" class="form-label">Card Number</label>
+                <input type="number" class="form-control" id="inputcard">
+              </div>
+            <div class="col-md-6">
+              <label for="inputname" class="form-label">Name</label>
+              <input type="name" class="form-control" id="inputname">
+            </div>
+            <div class="col-md-6">
+              <label for="inputquantity" class="form-label">Quantity</label>
+              <input type="number" class="form-control" id="inputquantity">
+            </div>
+            <div class="col-md-6">
+                <label for="inputfat" class="form-label">Fat</label>
+                <input type="number" class="form-control" id="inputfat">
+              </div>
+            <div class="col-md-3 py-4 px-6">
+                <label> </label>
+             <span>Buffalo-Milk  <input class="form-check-input" type="checkbox" value="" id="buffalomilk"></span>
+            </div>
+    
+            <div class="col-md-3 py-4 px-6">
+                <span>Cow-Milk  <input class="form-check-input" type="checkbox" value="" id="cowmilk"></span>
+            </div>
+    
+            <div class="col-md-5 py-4 px-4">
+                <span>LR Value: <input type="number" id="inputlr"></span>
+              </div>
+        
+              <div class="tot has-text-centered">
+              <div class="col-md-6">
+                <label for="inputfat" class="form-label">TOTAL</label>
+                <input type="number" class="form-control" id="inputfat">
+              </div>
+              </div>
+            <div class="col-12 mt-4 has-text-centered">
+              <button type="submit" class="btn btn-primary">ENTER  </button>
+            </div>
+          </form>
+        </div>
+    </div>
+    </div>
+  </section>

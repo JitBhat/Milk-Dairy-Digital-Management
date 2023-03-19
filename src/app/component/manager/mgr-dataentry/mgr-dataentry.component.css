@@ -1,0 +1,21 @@
+.head{
+    background-color: rgba(5, 151, 2, 0.864);
+}
+.hero{
+    /* background-image:url(); */
+    background-size: 100% 100%;
+    background-position: center center;
+    height: 100% !important;
+    width: 100% !important;
+    margin: 0%;
+    padding: 0%;
+}
+.subhead{
+    background-color: rgba(3, 87, 2, 0.864);
+}
+a{
+    text-decoration: none;
+}
+.tot{
+    margin-left: 25%;
+}

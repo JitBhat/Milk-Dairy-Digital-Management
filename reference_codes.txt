@@ -1,0 +1,6 @@
+adding inputs to firebase databse
+
+<code>
+
+
+</code>

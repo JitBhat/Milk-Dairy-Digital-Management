@@ -1,0 +1,23 @@
+.head{
+    background-color: rgba(5, 151, 2, 0.864);
+}
+.hero{
+    background-image:url('../../../assets/images/dairy1.jpeg');
+    background-size: 100% 100%;
+    background-position: center center;
+    height: 100% !important;
+    width: 100% !important;
+    margin: 0%;
+    padding: 0%;
+}
+
+.button{
+    margin-bottom: 280px !important;
+    background-color:greenyellow !important;
+    color:black !important;
+    text-shadow:1px 1px ghostwhite;
+    border: 2px solid black;
+    margin-left: 150px !important;
+    margin-right: 150px !important;
+    
+}
